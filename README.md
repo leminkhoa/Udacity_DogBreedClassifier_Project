@@ -4,10 +4,11 @@
 - [Project Overview](#project-overview)
 - [Project Instructions](#project-instructions)
 - [Project Approaches](#project-approaches)
-    - [Model 1: Build CNN Model from Scratch](#model-1-build-cnn-model-from-scratch)
-    - [Model 2: Transfer Learning with VGG-16](#model-2-transfer-learning-with-vgg-16)
-    - [Model 3: InceptionV3](#model-3-inceptionv3)
+		- [Model 1: Build CNN Model from Scratch](#model-1-build-cnn-model-from-scratch)
+		- [Model 2: Transfer Learning with VGG-16](#model-2-transfer-learning-with-vgg-16)
+		- [Model 3: InceptionV3](#model-3-inceptionv3)
 - [Results](#results)
+- [Publication](#publication)
 
 # Project Overview
 This project uses Convolutional Neural Networks (CNNs)! In this project, we will to build a pipeline to process real-world, user-supplied images. Given an image of a dog, the algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed.
@@ -121,6 +122,9 @@ Finally, we try with another pre-trained model to check if the performance can b
 
 | Metrics               | Test Accuracy  | 
 |---------------------- |-----------------| 
-| CNN model from scratch| 6.3397%         |       
-| VGG-16                | 72.7273%        | 
-| InceptionV3           | 80.5024%        | 
+| CNN model from scratch| 3.9474 %         |       
+| VGG-16                | 70.0957%        | 
+| InceptionV3           | 78.3493%        | 
+
+# Publication
+A blog post for this project is published [here](https://medium.com/@lminhkhoa/can-a-machine-learn-how-to-classify-dog-breeds-2f5f3b1e19b3).
