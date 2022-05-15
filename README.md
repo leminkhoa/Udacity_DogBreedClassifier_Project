@@ -4,9 +4,9 @@
 - [Project Overview](#project-overview)
 - [Project Instructions](#project-instructions)
 - [Project Approaches](#project-approaches)
-		- [Model 1: Build CNN Model from Scratch](#model-1-build-cnn-model-from-scratch)
-		- [Model 2: Transfer Learning with VGG-16](#model-2-transfer-learning-with-vgg-16)
-		- [Model 3: InceptionV3](#model-3-inceptionv3)
+	- [Model 1: Build CNN Model from Scratch](#model-1-build-cnn-model-from-scratch)
+	- [Model 2: Transfer Learning with VGG-16](#model-2-transfer-learning-with-vgg-16)
+	- [Model 3: InceptionV3](#model-3-inceptionv3)
 - [Results](#results)
 - [Publication](#publication)
 
