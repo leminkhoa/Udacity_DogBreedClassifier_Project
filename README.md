@@ -120,6 +120,8 @@ Finally, we try with another pre-trained model to check if the performance can b
 ![third_model](images/inceptionv3_architecture.png)
 # Results
 
+We use accuracy metric to evaluate model performance. To calculate metrics, I will use the model to predict the dog breed of all images in the test set, and then find the percentage of images the model correctly predicted. Because this is a multi-class problem with up to 133 classes, accuracy metric is a good choice.
+
 | Metrics               | Test Accuracy  | 
 |---------------------- |-----------------| 
 | CNN model from scratch| 3.9474 %         |       
